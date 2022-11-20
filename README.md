@@ -1,6 +1,12 @@
 # Pandas-Challenge
 Create and manipulate Pandas DataFrames to analyze school and standardized test data
 
+##  include a written description of at least two observable trends based on the data.
+
+First Trend is related to the spending ranges per student. The school that received <$585 per student performed better in comparison with spending ranges between $645 and $680 per student. Example, the overall Passing in percent for spending range <$585 per student was 90.4% while the spending between $645-680 was 53.5%.
+
+Second trend is related to the School Type, the Charter performance of Average Math Score, Average Reading Score, % Passing Math and reading, also the % overall passing were better that District.
+
 ## District Summary
 Create a high-level snapshot of the district's key metrics in a DataFrame, including the following:
 
@@ -130,5 +136,7 @@ Create a table that breaks down school performance based on school size (small, 
 
 ## Scores by School Type
 Create a table that breaks down school performance based on school type (district or charter).
+
+
 
 ![](https://github.com/Gilaine-UOT/Pandas-Challenge/blob/main/PyCitySchools/Resources/Images/Figure9_Scores%20by%20School%20Type.PNG)
