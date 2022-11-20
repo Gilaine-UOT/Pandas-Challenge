@@ -1,14 +1,13 @@
 # Pandas-Challenge
 Create and manipulate Pandas DataFrames to analyze school and standardized test data
 
-##  include a written description of at least two observable trends based on the data.
+##  Observable trends based on the data.
 
 First Trend is related to the spending ranges per student. The school that received <$585 per student performed better in comparison with spending ranges between $645 and $680 per student. Example, the overall Passing in percent for spending range <$585 per student was 90.4% while the spending between $645-680 was 53.5%.
 
 Second trend is related to the School Type, the Charter performance of Average Math Score, Average Reading Score, % Passing Math and reading, also the % overall passing were better that District.
 
 ## District Summary
-Create a high-level snapshot of the district's key metrics in a DataFrame, including the following:
 
 Total schools
 
@@ -30,7 +29,6 @@ Average reading score
 
 
 ## School Summary
-Create a DataFrame that summarizes key metrics about each school, including the following:
 
 School name
 
@@ -55,7 +53,6 @@ Average reading score
 ![](https://github.com/Gilaine-UOT/Pandas-Challenge/blob/main/PyCitySchools/Resources/Images/Figure2_School_summary.PNG)
 
 ## Highest-Performing Schools (by % Overall Passing)
-Create a DataFrame that highlights the top-5 performing schools based on % Overall Passing. Include the following metrics:
 
 School name
 
@@ -80,7 +77,6 @@ Average reading score
 ![](https://github.com/Gilaine-UOT/Pandas-Challenge/blob/main/PyCitySchools/Resources/Images/Figure3_Highest%20Performing%20Schools%20by%20Overall%20Percent.PNG)
 
 ## Lowest-Performing Schools (by % Overall Passing)
-Create a DataFrame that highlights the bottom-5 performing schools based on % Overall Passing. Include the following metrics:
 
 School name
 
@@ -105,17 +101,16 @@ Average reading score
 ![](https://github.com/Gilaine-UOT/Pandas-Challenge/blob/main/PyCitySchools/Resources/Images/Figure4_Lowest%20Performing%20Schools%20by%20Overall%20Percent.PNG)
 
 ## Math Scores by Grade
-Create a DataFrame that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+Following the DataFrame that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 ![](https://github.com/Gilaine-UOT/Pandas-Challenge/blob/main/PyCitySchools/Resources/Images/Figure5_Math%20Scores%20by%20Grade.PNG)
 
 ## Reading Scores by Grade
-Create a DataFrame that lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+Following the DataFrame that lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school.
 
 ![](https://github.com/Gilaine-UOT/Pandas-Challenge/blob/main/PyCitySchools/Resources/Images/Figure6_Reading%20Scores%20by%20Grade.PNG)
 
 ## Scores by School Spending
-Create a table that breaks down school performance based on average spending ranges (per student). Use your judgment to create four bins with reasonable cutoff values to group school spending. Include the following metrics in the table:
 
 Average math score
 
@@ -130,12 +125,12 @@ Average reading score
 ![](https://github.com/Gilaine-UOT/Pandas-Challenge/blob/main/PyCitySchools/Resources/Images/Figure7_Scores%20by%20School%20Spending.PNG)
 
 ## Scores by School Size
-Create a table that breaks down school performance based on school size (small, medium, or large).
+Following the table that breaks down school performance based on school size (small, medium, or large).
 
 ![](https://github.com/Gilaine-UOT/Pandas-Challenge/blob/main/PyCitySchools/Resources/Images/Figure8_Scores%20by%20School%20Size.PNG)
 
 ## Scores by School Type
-Create a table that breaks down school performance based on school type (district or charter).
+Following the table that breaks down school performance based on school type (district or charter).
 
 
 
